@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Github Finder</title>
+        <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="container searchContainer mt-5" style="height: 90%">
+            <div class="search card card-body">
+                <h1>Search GitHub Users</h1>
+                <p class="lead">Enter a username to fetch a user profile and repos</p>
+                <input type="text" id="searchUser" class="form-control" placeholder="Github Username..." />
+            </div>
+
+            <br />
+
+            <div id="profile"></div>
+        </div>
+
+        <footer class="mt-5 p-3 text-center bg-success">Doron Michlal Raz &copy;</footer>
+
+        <script type="module" src="./github.js"></script>
+        <script type="module" src="./ui.js"></script>
+        <script type="module" src="./app.js"></script>
+    </body>
+</html>
